@@ -5,6 +5,6 @@ helm:
   values:
     clusterName: cluster-wujgrdwgtv
     clusterDisplayName: demo-gke-a
-    googleCredentialSecret: cattle-global-data:cc-vlcvw
+    googleCredentialSecret: cattle-global-data:cc-cdclp
     googleProjectID: nikkelma
     zone: us-east4-b
