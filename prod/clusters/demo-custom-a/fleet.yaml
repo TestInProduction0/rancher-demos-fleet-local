@@ -1,8 +1,14 @@
 helm:
+  #repository of the Cluster custom resource Helm chart
   repo: https://raw.githubusercontent.com/TestInProduction0/rancher-demos-charts/main/
+  #subfolder for relevant cluster helm chart
   chart: cluster-custom-a
+  #subfolder for versioned helm chart
   version: 0.1.1
   values:
+    #cluster UID, required
     clusterName: cluster-uid111
+    #cluster display name, required
     clusterDisplayName: demo-custom-a
+    #kubernetes version, not required but highly recommended
     kubernetesVersion: v1.20.8-rancher1-1
