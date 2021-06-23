@@ -1,0 +1,8 @@
+helm:
+  repo: https://raw.githubusercontent.com/TestInProduction0/rancher-demos-charts/main/
+  chart: cluster-custom-a
+  version: 0.1.0
+  values:
+    clusterName: cluster-uid111
+    clusterDisplayName: demo-custom-a
+	kubernetesVersion: v1.20.8-rancher1-1
