@@ -1,7 +1,7 @@
 helm:
   repo: https://raw.githubusercontent.com/TestInProduction0/rancher-demos-charts/main/
   chart: cluster-custom-a
-  version: 0.1.0
+  version: 0.1.1
   values:
     clusterName: cluster-uid111
     clusterDisplayName: demo-custom-a
