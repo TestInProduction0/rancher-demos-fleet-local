@@ -5,4 +5,4 @@ helm:
   values:
     clusterName: cluster-uid111
     clusterDisplayName: demo-custom-a
-	kubernetesVersion: v1.20.8-rancher1-1
+    kubernetesVersion: v1.20.8-rancher1-1
